@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private String[] item2 = {"007", "008", "009", "010", "011", "012"};
     private String[] item3 = {"013", "014", "015", "016", "017", "018"};
 
-    private int ITEM_PER_LINE = 4;
+    private final int ITEM_PER_LINE = 4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
